@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form02</title>
+</head>
+<body>
+<h1>select 요소</h1>
+<form action="html11_form01_res" method="get">
+	<fieldset>
+		<legend>여러줄 글상자와 목록상자</legend>
+		<p>
+			<label>답글</label><br/>
+			<textarea rows="5" cols="10" name="ta" ></textarea>
+		</p>
+		
+		<p>
+			<select name="selected01">
+				<option value="html">HTML</option>
+				<option>CSS</option>
+				<option>JS</option>
+				<option>JQ</option>			
+			</select>
+		</p>
+		<p>지역
+			<select name="selected02">
+				<optgroup label="서울">
+					<option value="kang-nam">강남</option>	
+					<option value="sa-dang">사당</option>
+					<option value="gu-ro">구로</option>
+				</optgroup>
+				<optgroup label="경기">
+					<option value="su-won">수원</option>
+					<option value="an-yang">안양</option>
+				</optgroup>
+			</select>
+		</p>
+		<p>
+			<input type="submit" value="전송"/>
+		</p>	
+	</fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

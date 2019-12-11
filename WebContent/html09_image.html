@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 관련 태그</title>
+</head>
+<body>
+	<!-- 이미지 삽입하기 위해 <img>태그 사용
+		파일의 경로 : src라는 속성
+		<img>태그는 닫기태그 사용X
+	 -->
+<h1>이미지 관련 태그</h1>
+	<img src="sample/image/river1.PNG">
+	<p>src 속성 경로를 셋팅하여 파일을 불러온다.</p>	 
+<hr/>
+	<h2>자주 사용되는 속성</h2>
+	<h3>alt 속성</h3>
+	<p>이미지를 읽어 올수 없을 경우 대체되는 텍스트</p> 
+	<img alt="강사진" src="sample/image/river1.png">
+<br>	
+	<h3>width와 height속성</h3>
+	<h4>고정크기: 화면의 사이즈가 바껴도 이미지 사이즈가 안변한다.</h4>
+	<img src="sample/image/flower1.PNG" width="200px" height="150px">
+	<img src="sample/image/flower2.PNG" width="200px" height="150px">
+	<img src="sample/image/flower3.PNG" width="200px" height="150px">
+	<br/>
+	<img src="sample/image/flower4.PNG" width="200px" height="150px">
+	<img src="sample/image/flower5.PNG" width="200px" height="150px">
+	
+	<hr>
+	<h4>가변크기: 화면의 사이즈가 바뀌면 이미지 사이즈가 변한다.</h4>
+	<img src="sample/image/flower1.PNG" width="15%" height="150px">
+	<img src="sample/image/flower2.PNG" width="15%" height="150px">
+	<img src="sample/image/flower3.PNG" width="15%" height="150px">
+	<br/>
+	<img src="sample/image/flower4.PNG" width="15%" height="150px">
+	<img src="sample/image/flower5.PNG" width="15%" height="150px">
+	
+	<hr>
+	<h4>이미지 구역을 2개로 나누어 각각 링크를 설정</h4>
+	<img src="sample/image/river1.PNG" usemap="#map">
+	<!-- map 태그로 이미지 맵을 만든다.(이미지맵이란 클릭을 할수 있는 영역) -->
+	<map name="map">
+		<area shap="rect" coords="00,00,300,500" href="http://www.naver.com" target="_blank" >
+		<area shap="rect" coords="300,0,628,419" href="http://www.google.com" target="_blank" >
+	</map>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
